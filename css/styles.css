@@ -394,6 +394,7 @@ body {
 
 .about-c2 button {        
     white-space: nowrap;   
+    height:80px;
 }
 .about-c2 button a{
     text-decoration:none;
