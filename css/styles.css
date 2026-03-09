@@ -367,7 +367,7 @@ body {
     grid-column: 4 / span 6;
     display: grid;
     grid-template: auto auto auto auto;
-    gap: 1.2rem;
+    gap: 1.1rem;
     justify-content: center;
     justify-items: center;
     max-width: 600px;
