@@ -370,7 +370,7 @@ body {
     gap: 1.1rem;
     justify-content: center;
     justify-items: center;
-    max-width: 650px;
+    max-width: 600px;
     margin: 0 auto;
     padding: var(--space-md);
     text-align: center;
