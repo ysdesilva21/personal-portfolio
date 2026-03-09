@@ -393,8 +393,9 @@ body {
 }
 
 .about-c2 button {
-    width: 10em;
-    height: 3em;
+    width: auto;           
+    white-space: nowrap;   
+    text-align: center;
 }
 .about-c2 button a{
     text-decoration:none;
