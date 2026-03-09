@@ -1091,7 +1091,7 @@ body {
 
     .card-project {
         height:auto;
-        max-height:auto;
+        max-height:350px;
         max-width: 100%;
         flex: 1 1 100%;
     }
