@@ -398,6 +398,7 @@ body {
     text-align: center;
 }
 .about-c2 button a{
+    font-size:0.9rem;
     text-decoration:none;
     color:var(--color-neutral-200);  
     transition:all 0.3s ease;
