@@ -395,7 +395,6 @@ body {
 .about-c2 button {
     width: auto;           
     white-space: nowrap;   
-    text-align: center;
 }
 .about-c2 button a{
     font-size:0.9rem;
