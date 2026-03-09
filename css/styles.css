@@ -392,11 +392,10 @@ body {
     max-width: 60ch;
 }
 
-.about-c2 button {        
+/*.about-c2 button {        
     white-space: nowrap;   
-}
+}*/
 .about-c2 button a{
-    font-size:0.9rem;
     text-decoration:none;
     color:var(--color-neutral-200);  
     transition:all 0.3s ease;
