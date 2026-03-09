@@ -1060,7 +1060,6 @@ body {
         gap: 1rem;
         padding: 0;
     }
-
     .about-c2 h2 {
         font-size: 1.5rem;
     }
@@ -1071,6 +1070,25 @@ body {
 
     .about-c3 {
         max-height: 250px;
+    }
+     .about-c2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   /* center content */
+        gap: 1rem;             /* spacing between elements */
+    }
+
+    .about-c2 button {
+        width: auto;           /* button adapts to text */
+        white-space: nowrap;   /* prevent text wrap */
+        text-align: center;    /* center text inside button */
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;       /* adjust for readability */
+    }
+
+    .about-c2 button a {
+        display: inline-block;
+        color: var(--color-neutral-200);
     }
 
     /* Projects Mobile */
