@@ -1,0 +1,81 @@
+# Yohani De Silva — Frontend Developer Portfolio
+
+This is my personal developer portfolio website.  
+It showcases my projects, technical skills, and contact information.
+
+The goal of this portfolio is to present my work as a frontend-focused developer and demonstrate my ability to build responsive, structured, and user-friendly web interfaces and desktop applications.
+
+## 🌐 Live Website
+
+(Add your deployed link here)
+
+## 🚀 Features
+
+- Responsive design for desktop, tablet, and mobile
+- Clean UI with modern layout
+- CSS variables for scalable styling
+- Structured component-based sections
+- Project showcase cards
+- Skills and education section
+- Contact and social media integration
+- Mobile navigation menu
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- Git & GitHub
+
+## 📂 Project Structure
+
+portfolio/
+│
+├── index.html
+├── css/
+│ └── styles.css
+├── script.js
+├── assets/
+│ ├── profile-pic.jpg
+│ ├── taskiq.jpg
+│ ├── resume.pdf
+│ └── favicon.ico
+└── README.md
+
+## 📸 Sections Included
+
+- Hero Section
+- About Me
+- Projects
+- Skills
+- Contact
+- Footer
+
+## 📌 Featured Project
+
+### TaskIQ (In Progress)
+
+A desktop task management application designed to help users organize work and stay focused.
+
+Technologies:
+
+- HTML
+- CSS
+- JavaScript
+- Electron
+
+## 📬 Contact
+
+Email: yohanidesilva21@gmail.com
+
+Social Links:
+
+- GitHub: https://github.com/ysdesilva21
+- LinkedIn: https://www.linkedin.com/in/ysdesilva21
+- Instagram: https://www.instagram.com/ysdesilva21
+- X: https://x.com/ysdesilva21
+
+## 📄 License
+
+This project is open source and available for learning and inspiration.
