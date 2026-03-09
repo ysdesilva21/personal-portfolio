@@ -2,358 +2,273 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YSDESILVA - Software Engineer & Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
+    <meta name="description" content="Yohani De Silva is a frontend developer specializing in HTML, CSS, JavaScript, and responsive web design. Explore projects, technical skills, and contact information.">
+    <meta name="robots" content="index, follow">
+    <title>Yohani De Silva | Frontend Developer Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- JS -->
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav>
-        <div class="container">
-            <div class="logo">YSDESILVA</div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="nav-toggle">
+    <!--Fixed social nav-->
+    <div class="social-bar">
+        <a href="https://www.instagram.com/ysdesilva21/" target="_blank" class="insta-btn"></a>
+        <a href="https://github.com/ysdesilva21" target="_blank" class="github-btn"></a>
+        <a href="https://www.linkedin.com/in/ysdesilva21/" target="_blank" class="linkedin-btn"></a>
+        <a href="https://x.com/ysdesilva21" target="_blank" class="x-btn"></a>
+        <a href="#hero" class="up-arrow"></a>
+    </div>
+
+    <!-- HERO WRAPPER -->
+    <div class="hero-wrapper" id="hero">
+        <header class="header" id="site-header">
+            <!--logo-->
+            <div class="logo">
+                <h2><a href="#site-header">YSDESILVA</a></h2>
+            </div>
+            
+            <!-- Mobile menu toggle -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
+            </button>
+                
+            <!--nav-bar-->
+            <div class="nav-wrapper" id="nav-wrapper">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="btn">
+                    <a href="./assests/resume.pdf" target="_blank">Resume</a>
+                </button>
+            </div>
+        </header>
+
+        <section id="site-home" class="home">
+            <div class="background-video-content">
+                <h1><span class="yohani">YOHANI</span> DE SILVA</h1>
+                <p class="typing-text">Frontend Developer</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-wrapper">
+        <div class="about-c1">
+            <h3>Vision and Innovation</h3>
+            <div class="items-about">
+                <div class="item-about">
+                    <img src="https://img.icons8.com/?size=100&id=1ikYZoxJsWtL&format=png&color=ffffff" alt="Human Behavior Studying" class="icon-about">
+                    <p>Human Behavior and Psychology</p>
+                </div>
+                <div class="item-about">
+                    <img src="https://img.icons8.com/?size=100&id=RRFt1k1pD9tL&format=png&color=ffffff" alt="Scalable Systems & Architecture" class="icon-about">
+                    <p>Scalable Technology</p>
+                </div>
+                <div class="item-about">
+                    <img src="https://img.icons8.com/?size=100&id=lYpGTcyY488u&format=png&color=ffffff" alt="Technology Entrepreneurship" class="icon-about">
+                    <p>Entrepreneurship</p>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Yohani S. De Silva</h1>
-            <p class="hero-subtitle">I turn designs into interactive web experiences</p>
-            <p class="hero-tagline">Building efficient, scalable, and creative solutions with modern web technologies</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        <div class="about-c2">
+            <h2>My name is <span class="full-name">Yohani De Silva</span>,<br>Frontend Developer</h2>
+            <p>I'm a <b>frontend-focused</b> web developer with a strong foundation in <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, and <b>responsive web design</b>. I build structured, mobile-friendly interfaces and use <b>Git</b> and <b>GitHub</b> for version control and collaboration. I enjoy learning by building <b>real-world projects</b> and continuously improving code quality, layout consistency, and user experience.</p>
+            <div class="logo">
+                <h2><a href="#hero-wrapper">YSDESILVA</a></h2>
             </div>
+            <p>Are you interested in my works?</p>
+            <button class="btn"><a href="#contact">Contact Me</a></button>
+        </div>
+
+        <div class="about-c3">
+            <img src="./assets/profile-pic.jpg" alt="Profile Picture" class="profile-pic">
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a passionate computer science student with a keen interest in full-stack development and building innovative software solutions. My journey into tech started with a curiosity about how things work, which evolved into a deep passion for writing clean, efficient code.
-                    </p>
-                    <p>
-                        I specialize in JavaScript and Python, and I have hands-on experience with modern frameworks like React and Node.js. I'm constantly learning and exploring new technologies to stay at the forefront of development. My goal is to create applications that not only solve real problems but also provide great user experiences.
-                    </p>
-                    <p>
-                        When I'm not coding, you'll find me exploring open-source projects, contributing to the developer community, or experimenting with new ideas in my personal projects. I believe in the power of continuous learning and collaborative development.
-                    </p>
-                </div>
-                <div class="skills-grid">
-                    <div class="skill-item">
-                        <h4>Frontend Development</h4>
-                        <p>React, JavaScript, HTML/CSS, Responsive Design</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>Backend Development</h4>
-                        <p>Node.js, Express, SQL, Database Design</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>Desktop Development</h4>
-                        <p>Electron, Cross-platform Apps</p>
-                    </div>
-                    <div class="skill-item">
-                        <h4>Problem Solving</h4>
-                        <p>Algorithms, Data Structures, System Design</p>
-                    </div>
+    <!-- PROJECTS SECTION -->
+<section class="site-projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-wrapper">
+        <div class="card-project" id="taskiq">
+            <img src="./assets/taskiq.jpg" alt="Project 01" class="img-project">
+            <div class="card-text">
+                <h3>TaskIQ (In Progress)</h3>
+                <p>A desktop task management application designed to help users organize work and stay focused.</p>
+                <div class="card-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Electron</span>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <button class="btn"><a href="hero">View More</a></button>
+</section>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-image">Project 1</div>
-                    <div class="project-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p class="project-description">
-                            Built a full-stack e-commerce application with product listings, shopping cart functionality, and secure payment integration using Stripe.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">MongoDB</span>
-                            <span class="tech-tag">Stripe</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="site-skills">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+            <!-- Education -->
+            <div class="education-wrapper">
+                <h3>Education and Certifications</h3>
+                <div class="edu-container">
+                    <div class="block-education">
+                        <h4>Foundation in Information Technology</h4>
+                        <p>Esoft Metro Campus</p>
+                    </div>
+                    <div class="block-education">
+                        <h4>Web Design For Beginners</h4>
+                        <p>University Of Moratuwa</p>
+                    </div>
+                    <div class="block-education">
+                        <h4>Responsive Web Design Certification</h4>
+                        <p>FreeCodeCamp</p>
                     </div>
                 </div>
+            </div>
 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-image">Project 2</div>
-                    <div class="project-content">
-                        <h3>Task Management App</h3>
-                        <p class="project-description">
-                            A collaborative task management tool featuring real-time updates, team assignments, and progress tracking with an intuitive UI.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Firebase</span>
-                            <span class="tech-tag">Tailwind CSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
+            <!-- Soft Skills -->
+            <div class="soft-wrapper">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                    <li>Adaptability</li>
+                    <li>Team collaboration</li>
+                    <li>Emotional Intelligence</li>
+                    <li>Intiative & Leadership</li>
+                </ul>
+            </div>
 
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <div class="project-image">Project 3</div>
-                    <div class="project-content">
-                        <h3>Weather Dashboard</h3>
-                        <p class="project-description">
-                            A responsive weather application displaying real-time forecasts, weather alerts, and historical data using OpenWeather API.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">REST API</span>
-                            <span class="tech-tag">Bootstrap</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
+            <!-- Technical Skills -->
+            <div class="tech-wrapper">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li><a class="html" href="html5"><img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5"></a></li>
+                    <li><a class="css" href="css3"><img src="https://img.icons8.com/?size=100&id=4d9YPiN04osD&format=png&color=000000" alt="CSS3"></a></li>
+                    <li><a class="tailwind" href="tailwind"><img src="https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" alt="Tailwind"></a></li>
+                    <li><a class="javascript" href="js"><img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="JavaScript"></a></li>
+                    <li><a class="react" href="react"><img src="https://img.icons8.com/?size=100&id=asWSSTBrDlTW&format=png&color=000000" alt="React"></a></li>
+                    <li><a class="git-github" href="gitand github"><img src="https://img.icons8.com/?size=100&id=E2KVOMc77Geo&format=png&color=000000" alt="Git/GitHub"></a></li>
+                    <li><a class="rest-api" href="restapi"><img src="https://img.icons8.com/?size=100&id=122187&format=png&color=000000" alt="REST API"></a></li>
+                    <li><a class="figma" href="figma"><img src="https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000" alt="Figma"></a></li>
+                    <li><a class="ai-assisted-dev" href="ai-assisted dev"><img src="https://img.icons8.com/?size=100&id=cLoBAYd7kAal&format=png&color=000000" alt="AI-Assisted Dev"></a></li>
+                </ul>
+            </div>
 
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <div class="project-image">Project 4</div>
-                    <div class="project-content">
-                        <h3>Social Media Feed</h3>
-                        <p class="project-description">
-                            A dynamic social platform with user authentication, post creation, likes, comments, and a responsive feed experience.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Express</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <div class="project-image">Project 5</div>
-                    <div class="project-content">
-                        <h3>Portfolio Generator</h3>
-                        <p class="project-description">
-                            An automated tool to generate professional portfolio websites from user input, with customizable templates and one-click deployment.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Vercel API</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <div class="project-image">Project 6</div>
-                    <div class="project-content">
-                        <h3>File Compression Utility</h3>
-                        <p class="project-description">
-                            A desktop application built with Electron for compressing and extracting files with drag-and-drop support and progress tracking.
-                        </p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Electron</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">React</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Download</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
+            <!-- Languages & Interests -->
+            <div class="lan-wrapper">
+                <h3>Languages</h3>
+                <div class="language-container">
+                    <p>Sinhala</p>
+                    <div class="bar"><div class="skill-sinhala" style="--progress:95%">95%</div></div>
+                    <p>English</p>
+                    <div class="bar"><div class="skill-english" style="--progress:80%">80%</div></div>
+                    <p>Greek</p>
+                    <div class="bar"><div class="skill-greek" style="--progress:10%">10%</div></div>
+                    <p>Spanish</p>
+                    <div class="bar"><div class="skill-spanish" style="--progress:10%">10%</div></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Labs Section -->
-    <section class="labs" id="labs">
-        <div class="container">
-            <h2>Labs & Experiments</h2>
-            <div class="labs-grid">
-                <div class="lab-item">
-                    <h4>TaskIQ</h4>
-                    <p>A lightweight Python script for intelligent task queuing and automation. Helps manage multiple tasks with priority levels and scheduled execution.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">CLI</span>
-                    </div>
-                </div>
-                <div class="lab-item">
-                    <h4>Code Snippet Organizer</h4>
-                    <p>Browser extension for saving and organizing code snippets with syntax highlighting and quick search across multiple languages.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Chrome API</span>
-                    </div>
-                </div>
-                <div class="lab-item">
-                    <h4>API Documentation Generator</h4>
-                    <p>Automated tool that parses code comments and generates comprehensive API documentation in multiple formats (HTML, Markdown, PDF).</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">AST Parser</span>
-                    </div>
-                </div>
-                <div class="lab-item">
-                    <h4>Data Visualization Dashboard</h4>
-                    <p>Interactive dashboard for visualizing complex datasets with multiple chart types, real-time data updates, and custom filters.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">D3.js</span>
-                    </div>
-                </div>
+    <!-- CONTACT SECTION -->
+    <section class="site-contact" id="contact">
+        <h3>Contact Me</h3>
+        <p class="contact-subtext">Let's build something amazing together.</p>
+        <p class="gmail"><a href="mailto:yohanidesilva21@gmail.com">Gmail: yohanidesilva21@gmail.com</a></p>
+        <div class="social-wrapper">
+            <div class="social">
+                <a href="https://www.instagram.com/ysdesilva21/" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=zezJrErrmcwx&format=png&color=ffffff" alt="Instagram">
+                    <span>Instagram</span>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://github.com/ysdesilva21" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=3tC9EQumUAuq&format=png&color=ffffff" alt="Github">
+                    <span>Github</span>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ysdesilva21/" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=ffffff" alt="LinkedIn">
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://x.com/ysdesilva21" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=phOKFKYpe00C&format=png&color=ffffff" alt="X">
+                    <span>X</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section class="skills" id="skills">
-        <div class="container">
-            <h2>Skills & Technologies</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h4>📱 Frontend</h4>
-                    <div class="skill-list">
-                        <span class="skill-badge">React</span>
-                        <span class="skill-badge">JavaScript</span>
-                        <span class="skill-badge">HTML/CSS</span>
-                        <span class="skill-badge">Responsive Design</span>
-                        <span class="skill-badge">Tailwind CSS</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>🖥️ Backend</h4>
-                    <div class="skill-list">
-                        <span class="skill-badge">Node.js</span>
-                        <span class="skill-badge">Express</span>
-                        <span class="skill-badge">Python</span>
-                        <span class="skill-badge">SQL</span>
-                        <span class="skill-badge">MongoDB</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>🛠️ Tools & Platforms</h4>
-                    <div class="skill-list">
-                        <span class="skill-badge">Git</span>
-                        <span class="skill-badge">Docker</span>
-                        <span class="skill-badge">VS Code</span>
-                        <span class="skill-badge">Webpack</span>
-                        <span class="skill-badge">Electron</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h4>🎓 Other</h4>
-                    <div class="skill-list">
-                        <span class="skill-badge">APIs & REST</span>
-                        <span class="skill-badge">Problem Solving</span>
-                        <span class="skill-badge">System Design</span>
-                        <span class="skill-badge">Agile</span>
-                    </div>
-                </div>
-                <div class="resume-btn">
-                    <a href="#" class="btn btn-primary">Download Resume</a>
-                </div>
+    <!-- FOOTER -->
+    <footer class="site-footer" id="footer">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <h3>ABOUT ME</h3>
+                <p>Frontend Developer with a strong foundation in web development, specializing in HTML, CSS, JavaScript,responsive design and frontend frameworks.</p>
+                <p>Experienced in building interactive, mobile-friendly websites and user interfaces. Passionate about creating clean, efficient, and scalable web solutions.</p>
+                <p>I am looking for a position where I can combine my technical skills, creativity, and problem-solving abilities to contribute to innovative web projects and grow alongside a talented development team.</p>
+            </div>
+            <div class="footer-projects">
+                <h3>LATEST PROJECTS</h3>
+                <ul>
+                    <li><a href="#taskiq">TaskIQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>SOCIAL NETWORKS</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/ysdesilva21/" target="_blank">INSTAGRAM</a></li>
+                    <li><a href="https://github.com/ysdesilva21" target="_blank">GITHUB</a></li>
+                    <li><a href="https://www.linkedin.com/in/ysdesilva21/" target="_blank">LINKEDIN</a></li>
+                    <li><a href="https://x.com/ysdesilva21" target="_blank">X</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3>YSDSILVA</h3>
+                <ul>
+                    <li><a href="#hero">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2>Let's Connect</h2>
-            <div class="contact-content">
-                <p class="contact-intro">Have a project in mind or just want to chat? Feel free to reach out!</p>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="form-submit">Send Message</button>
-                </form>
-                <div class="contact-links">
-                    <a href="mailto:hello@yoyodev.com" class="contact-link">
-                        <div class="contact-link-icon">✉️</div>
-                        <span>Email</span>
-                    </a>
-                    <a href="https://github.com" target="_blank" class="contact-link">
-                        <div class="contact-link-icon">💻</div>
-                        <span>GitHub</span>
-                    </a>
-                    <a href="https://linkedin.com" target="_blank" class="contact-link">
-                        <div class="contact-link-icon">🔗</div>
-                        <span>LinkedIn</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#home" class="footer-link">Home</a>
-                <a href="#about" class="footer-link">About</a>
-                <a href="#projects" class="footer-link">Projects</a>
-                <a href="#contact" class="footer-link">Contact</a>
-            </div>
-            <p class="footer-copyright">© 2024 YoYoDev. All rights reserved. | Crafted with passion & code</p>
-        </div>
+        
+        <p class="copyright">COPYRIGHT &copy; 2026 YSDesilva.</p>
     </footer>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop">↑</button>
-
-    <script src="script.js" defer></script>
 </body>
 </html>
