@@ -1078,7 +1078,7 @@ body {
         gap: 1rem;             /* spacing between elements */
     }
 
-    .about-c2 button {
+    .about-c2 button  {
         width: auto;           /* button adapts to text */
         white-space: nowrap;   /* prevent text wrap */
         text-align: center;    /* center text inside button */
