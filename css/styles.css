@@ -286,6 +286,10 @@ body {
     text-align: center;
     line-height: 1.2;
 }
+.caption{
+    color:var(--color-neutral-200);
+    justify-content:center;
+}
 
 .yohani {
     color: var(--color-accent-mint);
@@ -460,7 +464,7 @@ body {
 .card-project {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: auto;
     border-radius: var(--radius-lg);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -498,6 +502,17 @@ body {
     gap: 0.5rem;
     padding-right:3rem;
 }
+.card-keys ul{
+    padding-left: 2rem;
+}
+.card-keys ul li{
+    padding:0.25rem;
+    font-size:1.25rem;
+}
+ul li::marker {
+  color: var(--color-accent-mint); 
+  font-size:1.2rem;
+}
 
 .card-tags span {
     background-color: var(--color-accent-mint);
@@ -506,6 +521,10 @@ body {
     font-family:var(--font-body);
     padding: 0.25rem 0.5rem;
     border-radius: 5px;
+}
+.card-project a{
+    text-decoration:none;
+    color:var(--color-accent-mint);
 }
 /* ================= SKILLS SECTION ================= */
 .site-skills {
@@ -1281,6 +1300,7 @@ body {
     .background-video-content h1 {
         font-size: 1.5rem;
     }
+
 
     .typing-text {
         font-size: 1rem;
