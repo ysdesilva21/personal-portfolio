@@ -464,7 +464,7 @@ body {
 .card-project {
     display: flex;
     flex-direction: column;
-    height:auto;
+    height: auto;
     border-radius: var(--radius-lg);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -507,7 +507,8 @@ body {
 }
 .card-keys ul li{
     padding:0.25rem;
-    font-size:1.25rem;
+    font-size:1.1rem;
+    line-height: 1.6;
 }
 ul li::marker {
   color: var(--color-accent-mint); 
@@ -947,9 +948,16 @@ ul li::marker {
         grid-column: 1 / span 6;
         max-height: 300px;
     }
-    .card-project{
-        height:auto;
+    
+    .card-project {
+        height: auto;
+        flex: 1 1 100%;
     }
+
+    .card-keys ul li {
+        font-size: 1rem;
+    }
+
     .skill-grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -1126,8 +1134,7 @@ ul li::marker {
     }
 
     .card-project {
-        height:auto;
-        max-height:350px;
+        height: auto;
         max-width: 100%;
         flex: 1 1 100%;
     }
@@ -1145,7 +1152,13 @@ ul li::marker {
     }
 
     .card-text p {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+    }
+
+    .card-keys ul li {
+        font-size: 0.95rem;
+        padding: 0.3rem 0;
+        line-height: 1.5;
     }
 
     /* Skills Mobile */
@@ -1360,7 +1373,7 @@ ul li::marker {
     }
 
     .card-project {
-        height:auto;
+        height: auto;
         flex: 1 1 100%;
     }
 
@@ -1377,15 +1390,18 @@ ul li::marker {
     }
 
     .card-text p {
+        font-size: 0.85rem;
+    }
+
+    .card-keys ul li {
         font-size: 0.8rem;
+        padding: 0.2rem 0;
+        line-height: 1.4;
     }
 
     .card-tags span {
         font-size: 0.7rem;
         padding: 0.2rem 0.4rem;
-    }
-    .card-keys{
-        font-size:0.7rem;
     }
 
     .project-link img {
