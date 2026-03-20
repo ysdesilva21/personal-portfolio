@@ -1360,6 +1360,7 @@ ul li::marker {
     }
 
     .card-project {
+        height:auto;
         flex: 1 1 100%;
     }
 
