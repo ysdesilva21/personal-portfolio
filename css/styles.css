@@ -1384,6 +1384,9 @@ ul li::marker {
         font-size: 0.7rem;
         padding: 0.2rem 0.4rem;
     }
+    .card-key{
+        font-size:0.7rem;
+    }
 
     .project-link img {
         width: 25px;
